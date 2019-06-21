@@ -1,22 +1,37 @@
 @charset "UTF-8";
-.name_header {
+.title {
     text-align: center;
-    padding: 8%;
+    padding-top: 8%;
+    padding-bottom: 2%;
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    text-align: center;
+    padding-bottom: 8%;
+    padding-top: 0;
 }
 .contact {
     text-align:center;
     padding-bottom: 1%;
 }
 .socials {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
 }
 .items {
-    height: 35px;
+    height: 40px;
     padding: 0 25px;
     transition:all 0.3s ease;
+    padding-bottom: 10px;
 }
 .items:hover {
     -webkit-transform: scale(1.3);
