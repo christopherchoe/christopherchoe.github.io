@@ -1,1 +1,14 @@
 @charset "UTF-8";
+.name_header {
+    text-align: center;
+    padding: 8%;
+}
+.socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.items {
+    height: 35px;
+    padding: 0 25px;
+}
