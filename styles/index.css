@@ -46,6 +46,13 @@ header {
 .card-text {
     color: black;
 }
+.res_text {
+    color: black;
+}
+.download {
+    position: relative;
+    margin: 15%;
+}
 .title {
     text-align: center;
     padding-top: 8%;
@@ -73,5 +80,4 @@ header {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 2%;
 }
